@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <table border="2pxl solid black">
+      <thead>
+        <th colspan="2">NOVELL WEB SERVCES LOGIN</th>
+      </thead>
+      <th></th>
+
+      <tbody>
+        <form style="border: 1px solid black">
+          <tr>
+            <td>
+              <label for="Name">Name:</label>
+            </td>
+            <td>
+              <input type="text" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="password">Password:</label>
+            </td>
+            <td><input type="password" /></td>
+          </tr>
+
+          <tr>
+            <td>
+              <label for="city">City of employement:</label>
+            </td>
+            <td>
+                <input type="text" /></td>
+            </tr>
+            <td>
+              <label for="web service">Web service:</label>
+            </td>
+            <td>
+              <select name="server" id="please select">
+                <option value="please select">please select</option>
+                <option value="Apache">Apache</option>
+                <option value="Apache tomcat">Apache tomcat</option>
+                <option value="IIS">Red</option>
+                <option value="Jagsaw">Black</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+              <td>
+                  <label for="role">Please specify<br>your role:</label>
+              </td>
+              <td>
+                  <input type="radio" name="role"/>Admin<br>
+                  <input type="radio" name="role"/>Engineer<br>
+                  <input type="radio" name="role"/>Manager<br>
+                  <input type="radio" name="role"/>Guest<br>
+              </td>
+           
+          </tr>
+        </form>
+      </tbody>
+    </table>
+  </body>
+</html>

@@ -1,0 +1,10 @@
+const ele1 = document.getElementById("name").value;
+console.log("value of name:" + ele1);
+const ele2 = document.getElementById("id").value;
+console.log("value of id:" + ele2);
+const ele3 = document.getElementById("password").value;
+console.log("value of password:" + ele3);
+const ele4 = document.getElementById("phno").value;
+console.log("value of phno:" + ele4);
+const ele25 = document.getElementById("button").value;
+console.log("value of name:" + ele25);
